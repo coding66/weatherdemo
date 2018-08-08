@@ -1,0 +1,12 @@
+<template name='futrue-item'>
+  <view class='futrue-item'>
+     <view class='item'>{{item.date}}</view>
+     <view class='item'>风力:{{item.fl}}</view>
+     <view class='itemer2'>风向:{{item.fx}}</view>
+     <view class='itemer'>温馨提示: <span>{{item.notice}}</span></view>
+     <view class='item'>{{item.type}}</view>
+     <view class='item'>{{item.high}}</view>
+     <view class='item'>{{item.low}}</view>
+    
+  </view>
+</template>

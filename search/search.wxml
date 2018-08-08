@@ -1,0 +1,44 @@
+<view class='searchenter'>
+    <input type='text' class='enter' bindinput='inputmsg'></input>
+    <view class='looking' bindtap='sousuo' id='{{enterinfo}}'><image src='../asset/img/23.png' class='img'></image></view>
+    <view class='back' bindtap='backindex'><span>返回</span></view>
+</view>
+<view class='tag'>省会城市:</view>
+<view class='provincecity'>
+     <view class='city'>
+        <button class='btn' plain='true'>北京</button>
+        <button class='btn' plain='true'>贵阳</button>
+        <button class='btn' plain='true'>昆明</button>
+        <button class='btn' plain='true'>南宁</button>
+        <button class='btn' plain='true'>拉萨</button>
+        
+     </view>
+     <view class='city'>
+        <button class='btn' plain='true'>南昌</button>
+        <button class='btn' plain='true'>上海 </button>
+        <button class='btn' plain='true'>天津</button>
+        <button class='btn' plain='true'>重庆</button>
+        <button class='btn' plain='true'>哈尔滨</button>
+     </view>
+     <view class='city'>
+        <button class='btn' plain='true'>长春</button>
+        <button class='btn' plain='true'>沈阳</button>
+        <button class='btn' plain='true'>石家庄</button>
+        <button class='btn' plain='true'>兰州</button>
+        <button class='btn' plain='true'>西宁</button>
+     </view>
+     <view class='city'>
+        <button class='btn' plain='true'>西安</button>
+        <button class='btn' plain='true'>银川</button>
+        <button class='btn' plain='true'>郑州</button>
+        <button class='btn' plain='true'>济南</button>
+        <button class='btn' plain='true'>太原 </button>
+     </view>
+     <view class='city'>
+        <button class='btn' plain='true'>合肥</button>
+        <button class='btn' plain='true'>长沙</button>
+        <button class='btn' plain='true'>武汉</button>
+        <button class='btn' plain='true'>南京</button>
+        <button class='btn' plain='true'>成都</button>
+     </view>
+</view>

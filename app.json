@@ -1,0 +1,16 @@
+{
+  "pages":[
+     
+    "pages/index/index",
+    "pages/weather/weather",
+    "pages/nowweather/noweather",
+    "pages/search/search",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "38BAC0",
+    "navigationBarTitleText": "咪咪天气",
+    "navigationBarTextStyle":"black"
+  }
+}

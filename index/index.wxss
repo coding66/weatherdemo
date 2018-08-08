@@ -1,0 +1,18 @@
+.container{
+  width: 100%;
+  height: 1200rpx;
+}
+.container .img{
+  position: absolute;
+  top:0rpx;
+  width: 100%;
+  height: 1200rpx;
+}
+.container .btn{
+  position: relative;
+  top: 600rpx;
+  width: 300rpx;
+  height: 100rpx;
+  border-radius: 20rpx;
+  color: rgba(7, 17, 27, 0.8)
+}

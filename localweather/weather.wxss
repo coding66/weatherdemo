@@ -1,0 +1,368 @@
+.content{
+  position: absolute;
+  width: 100%;
+  height:100%;
+ 
+}
+.img{
+  position: relative;
+  width: 100%;
+  height:100%; 
+}
+.title{
+padding-top: 80rpx;
+position: relative;
+font-family: 微软雅黑,宋体;
+width: 100%;
+height:95%;
+top: -1200rpx;
+background-color:rgba(0,0,0,0.1);
+box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5) 
+}
+.fenli{
+  text-align: center;
+  font-size: 16px;
+  color: white
+}
+.box{
+  display: flex;
+  height: 300rpx;
+  width:100%;
+  text-align: center;
+  font-size: 80px;
+  color: white;
+  
+  
+}
+.box .temp{
+   width: 420rpx;
+   flex-direction: row;
+   border-right: 2px solid gray
+}
+.box .temp .tag{
+  font-size: 60px;
+
+}
+.lifeinfo{
+  display: flex;
+  margin-top: 40rpx;
+  width: 100%;
+  height: 100rpx;
+  
+}
+.lifeinfo .lifecontent{
+  flex-direction: row;
+  width: 350rpx;
+  height: 70rpx;
+  margin-top: 10rpx;
+  margin-left: 20rpx;
+ 
+}
+.lifecontent .tag1{
+  height: 35rpx;
+  width: 100%;
+  font-size: 30rpx;
+  text-align: center;
+  color: white;
+  margin-bottom: 5rpx;
+}
+.lifecontent .tag2{
+  height: 36rpx;
+  width: 100%;
+  font-size: 30rpx;
+  text-align: center;
+  color: white;
+}
+.pminfo{
+  display: flex;
+  margin-top: 20rpx;
+  width: 100%;
+  height: 100rpx;
+}
+.pminfo .pmtag{
+  flex-direction: row;
+  width: 100rpx;
+  height: 70rpx;
+  border: 1px solid gainsboro;
+  margin-left: 10rpx;
+  border-radius: 10rpx;
+}
+.pminfo .pmtxt{
+  flex-direction: row;
+  width: 150rpx;
+  height: 70rpx;
+  margin-left: 10rpx;
+  border-radius: 10rpx;
+}
+.pminfo .pmtxt span{
+  color: white;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  font-size: 30rpx;
+}
+.pminfo .pmtag span{
+  display: inline-block;
+  width: 80rpx;
+  margin-left: 10rpx;
+  font-size: 25rpx;
+  color: yellow;
+}
+.pminfo .pmtag .bordertag{
+  width: 80rpx;
+  height: 4rpx;
+  background-color: yellow;
+  margin-left: 10rpx;
+  margin-top: 6rpx;
+}
+.shiduinfo{
+  display: flex;
+  margin-top: 15rpx;
+  width: 100%;
+  height: 100rpx;
+}
+.shiduinfo .shidubox{
+  flex-direction: row;
+  width: 120rpx;
+  height: 100rpx;
+  border: 1px solid gainsboro;
+  border-radius: 10rpx;
+  margin-left: 10rpx;
+}
+.shiduinfo .shidubox .shiduimg{
+  width: 120rpx;
+  height: 60rpx;
+}
+.shiduinfo .shidubox .tags{
+  width: 120rpx;
+  height: 25rpx;
+}
+.shiduinfo .shidubox .tags span{
+  position: relative;
+  top:-20rpx;
+  left: 10rpx;
+  font-size: 20rpx;
+  color:pink;
+  
+}
+.shiduinfo .shidutxt{
+  width: 120rpx;
+  height: 100rpx;
+  
+  padding-top: 20rpx;
+  padding-left: 30rpx;
+}
+.shiduinfo .shidutxt span{
+  color: white;
+  font-size: 30rpx;
+  
+}
+.couldyinfo{
+  display: flex;
+  margin-top: 20rpx;
+  width: 100%;
+  height: 100rpx;
+ 
+}
+.couldyinfo .couldybox{
+  flex-direction: row;
+  width: 120rpx;
+  height: 100rpx;
+  border: 1px solid gainsboro;
+  border-radius: 10rpx;
+  margin-left: 10rpx;
+}
+.couldyinfo .couldybox .couldyimg{
+  width: 120rpx;
+  height: 60rpx;
+}
+.couldyinfo .couldybox .tags{
+  width: 120rpx;
+  height: 25rpx;
+}
+.couldyinfo .couldybox .tags span{
+  position: relative;
+  top:-20rpx;
+  left: 10rpx;
+  font-size: 20rpx;
+  color:red;
+  
+}
+.couldyinfo .couldytxt{
+  width: 120rpx;
+  height: 100rpx;
+ 
+  padding-top: 20rpx;
+  padding-left: 30rpx;
+}
+.couldyinfo .couldytxt span{
+  color: white;
+  font-size: 30rpx;
+  
+}
+.forwordinfo{
+  display: flex;
+  margin-top: 20rpx;
+  width: 100%;
+  height: 100rpx;
+  
+
+}
+.forwordinfo .forwordbox{
+  flex-direction: row;
+  width: 120rpx;
+  height: 100rpx;
+  border: 1px solid gainsboro;
+  border-radius: 10rpx;
+  margin-left: 10rpx;
+}
+.forwordinfo .forwordbox .forwordimg{
+  width: 120rpx;
+  height: 60rpx;
+}
+.forwordinfo .forwordbox .tags{
+  width: 120rpx;
+  height: 25rpx;
+}
+.forwordinfo .forwordbox .tags span{
+  position: relative;
+  top:-20rpx;
+  left: 10rpx;
+  font-size: 20rpx;
+  color:skyblue;
+  
+}
+.forwordinfo .forwordtxt{
+  width: 120rpx;
+  height: 100rpx;
+
+  padding-top: 20rpx;
+  padding-left: 30rpx;
+}
+.forwordinfo .forwordtxt span{
+  color: white;
+  font-size: 30rpx;
+  
+}
+.local{
+ display: flex;
+  width: 320rpx;
+  height: 100rpx;
+  margin-left: 150rpx;
+  
+}
+.local .tag{
+  flex-direction: row;
+  width: 100rpx;
+  height: 100rpx;
+  
+  margin-left: 65rpx;
+  
+}
+.local .tag .tagimg{
+  margin: 25rpx 0 0 25rpx;
+  width: 60rpx;
+  height: 60rpx;
+}
+.local .localname{
+  height: 100rpx;
+  width: 100rpx;
+   flex-direction: row;
+   color: black;
+   padding-left: 10rpx;
+   padding-top: 30rpx;
+   font-size: 30rpx;
+}
+.serach{
+  width: 30%;
+  height: 100rpx;
+  margin-top: 20rpx;
+  margin-left: 500rpx;
+  display: flex;
+  border: 1rpx solid rgba(0, 0, 0, 0.5);
+  border-radius: 10rpx;
+}
+.serach .tag{
+  height: 60rpx;
+  width: 60rpx;
+  margin-top: 25rpx;
+  flex-direction: row;
+  margin-left: 26rpx;
+}
+.serach .tag img{
+  height: 60rpx;
+  width: 60rpx;
+}
+.serach .tag2{
+  padding-top: 20rpx;
+  padding-left:20rpx;
+}
+.serach .tag2 span{
+  font-size: 30rpx;
+  color: black;
+}
+.life{
+  margin-top: 10rpx;
+  margin-left: 10rpx;
+  border: 2px solid gray;
+  border-radius: 10rpx;
+  width: 60rpx;
+  height: 60rpx;
+  padding-top: 10rpx;
+  padding-left: 10rpx;
+  background-color: rgba(0,0,0,0.2)
+}
+.life .lifetag{
+  width: 50rpx;
+  height: 50rpx;
+}
+.box .infoimg{
+  margin-left: 2rpx;
+  width: 310rpx;
+  flex-direction: row;
+
+}
+.box .imgtag{
+  height: 60%;
+  width: 100%;
+ 
+}
+.box .infoimg .img{
+  width: 100rpx;
+  height: 100rpx;
+  margin-bottom: 20rpx;
+}
+.box .infotxt{
+  width: 100%;
+  height: 40%;
+  font-size: 40rpx;
+  color: white
+}
+.detail{
+  padding: 30rpx;
+  text-align: center;
+  font-size: 16px;
+  color: white
+}
+.city{
+  padding: 30rpx;
+  text-align: right;
+  font-size: 14px;
+  color: white 
+}
+
+.view{
+  position: relative;
+  height: 64%;
+
+  top:-1198rpx;
+}
+.swiper{
+  position: relative;
+  top:-1200rpx;
+  height:64%;
+  background-color: red;
+}
+.imgs{
+  width: 100%;
+  height: 100%;
+}

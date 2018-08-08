@@ -1,0 +1,61 @@
+<view class='content'>
+ <image class='img' src='../asset/img/bg.png'></image>
+   <view class='title'>
+      <view class='box'>
+        <view class='temp'>{{info.liveData.temperature}}
+            <span class='tag'> ℃</span>
+        </view>
+        <view class='infoimg'>
+           <view class='imgtag'><image class='img' src='{{infoimg}}'></image></view>
+            <view class='infotxt'>{{info.weather.data}}</view>
+        </view>
+      </view>
+      <view class='lifeinfo'>
+          <view class='life'><image class='lifetag' src='../asset/img/17.png'></image></view>
+          <view class='lifecontent'>
+              <view class='tag1'>生活资讯</view>
+              <view class='tag2'>更新时间:{{info.liveData.reporttime}}</view>
+          </view>
+          
+      </view>
+      <view class='pminfo'>
+              <view class='pmtag'><span>pm2.5</span><view class='bordertag'></view></view>
+              <view class='pmtxt'><span>59</span><span>良</span></view>
+      </view>
+      <view class='shiduinfo'>
+         <view class='shidubox'><image class='shiduimg' src='../asset/img/20.png'></image>
+         <view class='tags'><span>湿度</span></view>
+         </view>
+         <view class='shidutxt'><span>{{info.humidity.data}}</span></view>
+      </view>
+       <view class='couldyinfo'>
+         <view class='couldybox'><image class='couldyimg' src='../asset/img/18.png'></image>
+         <view class='tags'><span>风力</span></view>
+         </view>
+         <view class='couldytxt'><span>{{info.windpower.data}}</span></view>
+      </view>
+      <view class='forwordinfo'>
+         <view class='forwordbox'><image class='forwordimg' src='../asset/img/19.png'></image>
+         <view class='tags'><span>风向</span></view>
+         </view>
+         <view class='forwordtxt'><span>{{info.winddirection.data}}</span></view>
+          <view class='local' bindtap='localjump' id='{{localtion}}' >
+             <view class='tag'><image class='tagimg' src='../asset/img/22.png'></image></view>
+             <view class='localname'  >{{info.liveData.province}}--{{info.liveData.city}}</view>
+             
+         </view>
+         
+      </view>
+      <view class='serach' bindtap='seraching'>
+            <view class='tag'><image class='img' src='../asset/img/23.png'></image>
+            </view>
+            <view class='tag2' ><span>搜索</span></view>
+         </view>
+
+     
+      <!-- <view class='fenli'>{{info.weather.data}} {{info.winddirection.data}} {{info.windpower.data}}</view>
+      <view class='detail'>{{info.humidity.text}}:{{info.humidity.data}}</view>
+      <view class='city'>{{info.liveData.province}}-{{info.liveData.city}}</view> -->
+   </view>
+   <loading hidden="{{hiddenLoading}}">正在加载本地天气数据..</loading>
+</view>

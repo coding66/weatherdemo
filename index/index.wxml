@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+<image class='img' src='../asset/img/1.gif'>
+ 
+</image>
+ <button class='btn' plain='true' bindtap='jumpindex'>查询天气</button>
+</view> 

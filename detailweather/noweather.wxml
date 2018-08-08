@@ -1,0 +1,26 @@
+<view class='content'>
+<!-- <view class='soso'>
+<input class='serach' bindinput='sercher'></input>
+<button class='looker'  size='mini'bindtap='souso'>caaca</button>
+</view> -->
+
+<image class='img' src='../asset/img/10.jpg'>
+</image>
+
+   <view class='weather'>
+       <view class='temp'>{{infor.data.wendu}}℃</view>
+       <view class='detail'>温馨提示:{{infor.data.ganmao}}</view>
+       <view class='pm10'>PM1.0:{{infor.data.pm10}}</view>
+       <view class='pm25'>PM2.5:{{infor.data.pm25}}</view>
+       <view class='aqi'>空气指数:{{infor.data.quality}}</view>
+       <view class='shidu'>湿度:{{infor.data.shidu}}</view>
+       <view class='city'>{{infor.city}}</view>
+   </view>
+   <import src='../template/template.wxml'/>
+   <view class='futrue'>
+      <block wx:for='{{infor.data.forecast}}'>
+      <template is='futrue-item' data='{{item}}'/>
+      </block>
+   </view>
+    <loading hidden="{{hiddenLoading}}">正在加载天气数据..</loading>
+</view>
